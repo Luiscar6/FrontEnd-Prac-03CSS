@@ -1,0 +1,152 @@
+*{
+    font-family: Aharoni, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/**navegacion**/
+.navegacion{
+    background-color:#ffffff;
+    opacity: 0.9;
+    padding: 3rem 0;
+    text-align: left;
+}
+
+
+.navegacion__enlace{
+    font-size: 1.1rem;
+    padding: 1rem 1.6rem;
+    margin-right: 3rem;
+    color: #111114;
+    text-decoration: none;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color:#ffffff;
+    background-color: #0011fbed;
+    padding: 1rem 1.6rem;
+    display:flexbox;
+    box-shadow: 0px 5px 25px #0000a186;
+}
+
+.navegacion__enlace--logo{
+    color:#0011fbb6 ;
+    text-align:left;
+    margin-right: 39rem;
+    font-size: 1.7rem;  
+}
+
+/**navegacion**/
+img{
+    max-width: 100px;
+}
+
+h1,h2,h3{
+    color: #000080;
+    font-size: 3.3rem;
+}
+
+
+p{
+    color: #7a7a7ac2;
+}
+
+.fondo1{
+    background-image: url("img/img1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0px auto auto auto;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: column ;
+    margin: auto 50% auto 10px;
+    }
+
+h1{
+    font-size: 6rem;
+}
+.p1{
+    margin: auto 20% auto 10px  ;
+    font-size: 1.3rem;
+
+}
+
+.contenedor2, .contenedor4, .contenedor5{
+    margin: 10px 50px ;
+    padding:10px;
+    display: flex;
+   
+
+    /** mostrar 1 fila flex-wrap:wrap **/
+}
+.contenedor4__objs{
+    padding: 1rem 1.6rem;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+    display: flex;
+    
+    
+}
+.contenedor5__obj1, .contenedor5__obj2, .contenedor5__obj3{
+    padding: 1rem 1.6rem;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+}
+.contenedor3{
+    margin: 50px 50px ;
+    padding:10px;
+    display: flex;
+    font-size: 1.5rem;
+    color:#000080;
+}
+
+.contenedor11 {
+    display: flex;
+    flex-direction: column ;
+    margin:10rem;
+    padding: 5px 50% auto auto;
+    }
+
+  
+.fondo2{            
+    background-image: url("img/fondo2.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-origin: border-box;
+    height: 1080px;
+    
+
+}
+.
+.p2{
+    margin: auto 20% auto 10px  ;
+    font-size: 1.3rem;
+
+}
+
+.fondoN{
+    background-image: url("img/Fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+    margin: 0px auto auto auto;
+}
+/**
+.fondo4{
+    background-image: url("img/img1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1335px;
+}
+
+.fondoRepetidoY{
+    background-image: url("img/Fondo.png");
+    background-repeat: repeat-y;
+    height: 1080px;
+}
+**/
